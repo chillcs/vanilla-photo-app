@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input {
+	outline: none;
+}
+
+.header {
+	margin: 15px;
+	text-align: center;
+}
+
+#search-form {
+	border-radius: 0;
+}
+
+#search-bar {
+	width: 50%;
+	height: 40px;
+	margin: 25px;
+	border: none;
+	border-bottom: 3px solid #000;
+}
+
+.container {
+	display: flex;
+	width: 75%;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin: 0 5px;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 5px;
+}
